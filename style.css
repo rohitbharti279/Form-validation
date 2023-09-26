@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.grand .hero {
+    background-color: pink;
+}
+.grand {
+    background-color: rgb(8, 101, 2);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.hero {
+    text-align: center;
+    padding: 5px;
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}
+
+.message {
+    background-color: pink;
+    text-align: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.message h1 {
+   color: green;
+}
+
+.message a {
+    color: red;
+}
+@media (min-width: 768px) {
+    .hero {
+        width: 50%;
+        
+    }
+}

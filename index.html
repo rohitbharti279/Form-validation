@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="grand">
+      <div class="hero">
+        <h1>Form Validation</h1>
+        <!--  form validation using html , we have to use "required" attributes -->
+        <!-- <form  action="message.html">
+        <input type="text" id="user-name" placeholder="username" required/>
+        <input type="password" id="pass" placeholder="password" required/>
+        <button type="submit" onclick="return validate()">submit</button>
+      </form> -->
+
+        <form action="message.html">
+          <label for="user-name">User name:</label>
+          <input
+            type="text"
+            id="user-name"
+            placeholder="username"
+          /><br /><br />
+
+          <label for="pass">Password:</label>
+          <input type="password" id="pass" placeholder="password" /> <br />
+          <br />
+
+          <button type="submit" onclick="return validate()">submit</button>
+          <!-- <input type="submit"> -->
+        </form>
+      </div>
+    </div>
+    <script src="./main.js"></script>    
+    <noscript>this browser not support js</noscript>
+  </body>
+</html>
